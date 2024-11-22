@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     // global variables declaration
     static int customerID;
@@ -10,6 +12,8 @@ public class Main {
     final static int MINUTES = 500;
     final static double BASIC_SERVICE = 30.0;
     final static double PREMIUM = 20.0;
+
+    Scanner input = new Scanner(System.in);
 
     public static void housekeeping() {
 
